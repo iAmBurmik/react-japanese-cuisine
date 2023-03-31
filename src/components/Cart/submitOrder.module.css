@@ -1,0 +1,63 @@
+.control input {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin: 0.5rem auto 0;
+    width: 100%;
+    outline: 0;
+}
+
+.control input:focus {
+    border-color: #6b068a;
+    background-color: rgb(209, 209, 209);
+}
+
+.form {
+    width: 50%;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #6b068a;
+    border-radius: 25px;
+    padding: 0.5rem 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.form button:hover,
+.form button:active {
+    background-color: #47035d;
+    border-color: #47035d;
+    color: white;
+}
+  
+.form .button--alt {
+    color: #6b068a;
+}
+  
+.form .button {
+    background-color: #6b068a;
+    color: white;
+}
+
+.invalid p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    margin-left: 10px;
+    color: red;
+}
+
+.invalid input {
+    border-color: red;
+    background-color: rgb(246, 163, 153);
+}
